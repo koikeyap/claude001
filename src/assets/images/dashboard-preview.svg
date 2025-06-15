@@ -1,0 +1,27 @@
+<svg width="320" height="200" viewBox="0 0 320 200" xmlns="http://www.w3.org/2000/svg">
+  <rect width="320" height="200" fill="#F8FAFC" rx="8"/>
+  <rect x="10" y="10" width="300" height="180" fill="white" rx="4" stroke="#E2E8F0"/>
+  
+  <!-- Header -->
+  <rect x="20" y="20" width="280" height="30" fill="#4F46E5" rx="4"/>
+  <text x="30" y="38" fill="white" font-family="Arial" font-size="12" font-weight="bold">Health Dashboard</text>
+  
+  <!-- Stats cards -->
+  <rect x="20" y="60" width="85" height="50" fill="#EF4444" rx="4" opacity="0.1"/>
+  <text x="25" y="75" fill="#EF4444" font-family="Arial" font-size="8">Heart Rate</text>
+  <text x="25" y="95" fill="#EF4444" font-family="Arial" font-size="16" font-weight="bold">72 BPM</text>
+  
+  <rect x="115" y="60" width="85" height="50" fill="#10B981" rx="4" opacity="0.1"/>
+  <text x="120" y="75" fill="#10B981" font-family="Arial" font-size="8">Steps Today</text>
+  <text x="120" y="95" fill="#10B981" font-family="Arial" font-size="16" font-weight="bold">8,432</text>
+  
+  <rect x="210" y="60" width="85" height="50" fill="#3B82F6" rx="4" opacity="0.1"/>
+  <text x="215" y="75" fill="#3B82F6" font-family="Arial" font-size="8">Sleep Hours</text>
+  <text x="215" y="95" fill="#3B82F6" font-family="Arial" font-size="16" font-weight="bold">7.5h</text>
+  
+  <!-- Chart area -->
+  <rect x="20" y="125" width="280" height="55" fill="#F1F5F9" rx="4"/>
+  <polyline points="30,160 50,150 70,155 90,145 110,140 130,150 150,135 170,145 190,130 210,140 230,125 250,135 270,120 290,130" 
+            fill="none" stroke="#4F46E5" stroke-width="2"/>
+  <text x="25" y="140" fill="#64748B" font-family="Arial" font-size="8">Weekly Activity</text>
+</svg>
